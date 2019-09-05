@@ -126,7 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             key: Key('dismissible-card-${debt.id}'),
                             child: Card(
-                                elevation: 0.0,
+                                elevation: 1.2,
                                 key: Key('current-list-${debt.id}'),
                                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
                                 child: Padding(
@@ -506,7 +506,9 @@ class DebtProvider {
 
   Future<Debt> insert(Debt debt) async {
     await open();
+
     debt.id = await db.insert('debts', debt.toMap());
+
     return debt;
   }
 

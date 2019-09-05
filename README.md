@@ -1,5 +1,10 @@
 # flutter_app
 
+![Screen 1](https://github.com/issakulalibek/flutter_app/raw/master/screens/screen-1.jpg)
+![Screen 2](https://github.com/issakulalibek/flutter_app/raw/master/screens/screen-2.jpg)
+![Screen 3](https://github.com/issakulalibek/flutter_app/raw/master/screens/screen-3.jpg)
+![Screen 4](https://github.com/issakulalibek/flutter_app/raw/master/screens/screen-4.jpg)
+
 A new Flutter application.
 
 ## Getting Started
